@@ -1,0 +1,22 @@
+/* Minimal global styles to avoid blank page due to missing CSS */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cairo', sans-serif;
+  background: url('./farawi.png') center center/50% no-repeat, #0D1B2A; /* Reduced size to 50% for better visibility */
+  color: #E0E1DD;
+  padding-bottom: 50px; /* Added padding to ensure full logo visibility */
+}
+
+
+/* Ensure images/backgrounds are visible and sections expand */
+section {
+  display: block;
+  padding: 5px 10px; /* Reduced top padding for better alignment */
+}
+
+/* Utility to show outlines for debugging (remove later) */
+/* * { outline: 0.5px solid rgba(255,255,255,0.03); } */
